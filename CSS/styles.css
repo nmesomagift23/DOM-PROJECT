@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 16px;
+    background-color: brown;
+}
+.main-header {
+    text-align: center;
+    color: aquamarine;
+    padding: 10px 15px;
+}
+.cloth-items, img {
+    height: 500px;
+   width: 500px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:30px;
+}
+.shop-item {
+    padding: 5px;
+    margin: 30px;
+}
